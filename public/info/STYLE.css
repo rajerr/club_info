@@ -1,0 +1,51 @@
+
+@-webkit-keyframes sliderLeft {
+
+	0%{left:0%;}
+	20%{left:0%;}
+	25%{left:-100%;}
+	45%{left:-100%;}
+	50%{left:-200%;}
+	70%{left:-200%;}
+	75%{left:-300%;}
+	95%{left:-300%;}
+	100%{left:-400%;}
+}
+
+#diaporama{
+	max-width: 3000px;  
+
+	height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 0px solid blue;
+}
+#diaporama figure{
+	position: relative;
+	width: 500%;
+	-webkit-animation: 70s sliderLeft infinite;
+}
+#diaporama figure img{
+	width:20%;
+	height: 500px;
+	float: left;
+
+}
+
+
+     }
+
+
+
+
+/* PAGE MARKET*/
+
+.rubriques{ 
+
+}
+
+
+
+
+
+

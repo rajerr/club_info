@@ -1,0 +1,1 @@
+detail_service.blade.php

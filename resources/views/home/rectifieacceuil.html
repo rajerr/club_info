@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from themewinter.com/html/dart/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 11 Jun 2014 12:23:36 GMT -->
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Club Informatique Geeks</title>
+    <meta name="description" content="">    
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.html" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="info/img/favicon/favicon-144x144.html">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="info/img/favicon/favicon-72x72.html">
+    <link rel="apple-touch-icon-precomposed" href="info/img/favicon/favicon-54x54.html">
+    
+    <!-- CSS
+    ================================================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="info/css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="info/css/style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="info/css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="info/css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="info/css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="info/css/owl.carousel.css">
+    <!-- Bxslider -->
+    <link rel="stylesheet" href="info/css/jquery.bxslider.css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+    
+<body>
+    <div class="body-inner">
+    <!-- Header start -->
+    <header id="header" class="navbar-fixed-top main-nav" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!--/ Top info start -->
+                    <div class="top-info">
+                        <ul class="pull-right">
+                            <li><i class="fa fa-phone"></i> Call Us: (+221) 00 000 00 00</li>
+                            <li><i class="fa fa-envelope"></i> clubinfo.geeks@gmail.com</li>
+                            <!-- Social links -->
+                            <li class="social-icon">
+                                <a id="tooltip1" data-toggle="tooltip" data-placement="top" title="Twitter"  href="#">
+                                    <i class="fa fa-twitter"></i>
+                                   
+
+                                </a>
+                                <a id="tooltip2" data-toggle="tooltip" data-placement="top" title="Facebook" href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a id="tooltip3" href="#" data-toggle="tooltip" data-placement="top" title="Google+">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                                <a id="tooltip4" href="#" data-toggle="tooltip" data-placement="top" title="Dribble">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li><!-- Social links end-->
+                        </ul>
+                    </div><!--/ Top info end -->
+
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index-2.html">
+                            <img class="img-responsive" src="info/images/logo.png" alt="logo">
+                        </a>                    
+                    </div><!--/ Logo end -->
+
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown active">
+                                <a href="{{URL::to('/')}}" class="dropdown-toggle" data-toggle="">Accueil <i class="fa fa-caret-down"></i></a>
+                            </li>
+                            <li><a href="{{URL::to('/about')}}">Qui sommes nous?</a></li>
+                            <li><a href="{{URL::to('/activite')}}">Activités</a></li>
+                            <li><a href="{{URL::to('/membre')}}">Membres</a></li>
+                        
+                                                   <!-- <ul class="dropdown-menu">
+                                    <li><a href="team.html">Team Members</a></li>
+                                    <li><a href="price.html">Pricing Table</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                </ul> -->
+                            </li>
+                            <li class="dropdown">
+                                <a href="{{URL::to('/departement')}}" class="dropdown-toggle" data-toggle="dropdown">Departements<i class="fa fa-caret-down"></i></a>
+                              <!--  <ul class="dropdown-menu">
+                                    <li><a href="portfolio-4col.html">Portfolio 4col</a></li>
+                                    <li><a href="portfolio-item.html">Portfolio Details</a></li>
+                                </ul> -->
+                            </li>
+                  
+                            </li>
+                            <li><a href="{{URL::to('/contact')}}">Contact</a></li>
+                            <li class="search"><button class="fa fa-search"></button></li>
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                    
+                    <div class="site-search">
+                        <div class="container">
+                            <input type="text" placeholder="type what you want and enter">
+                            <span class="close">&times;</span>
+                        </div>
+                    </div>
+                </div><!--/ Col end -->
+            </div><!--/ Row end -->
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+    
+
+    <!-- Slider start -->
+    <section id="home"> 
+        <!-- Carousel -->
+        <div id="main-slide" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slide" data-slide-to="1"></li>
+                <li data-target="#main-slide" data-slide-to="2"></li>
+            </ol><!--/ Indicators end-->
+
+                   <link rel="stylesheet" href="{{asset('info/STYLE.css')}}">
+             <?php 
+             $image=DB::table('slide')
+                                       ->where('statut',1)
+                                       ->limit(5)
+                                       ->get();
+                                        ?>  
+           
+       
+            <div class="carousel-inner">                                
+                <div id="diaporama" > 
+                <figure>  
+                    @foreach($image as $v_slider)                 
+                <img src="{{URL::to($v_slider->image)}}"/>
+                @endforeach
+                </figure>
+                </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="carousel-content">
+                                   
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+
+            </div>
+
+
+            <!-- Controls -->
+        <!--    <a class="left carousel-control" href="#main-slide" data-slide="prev">
+                <span><i class="fa fa-angle-left"></i></span>
+            </a>
+            <a class="right carousel-control" href="#main-slide" data-slide="next">
+                <span><i class="fa fa-angle-right"></i></span>
+            </a> -->
+        </div><!-- /carousel -->        
+    </section>
+    <!--/ Slider end -->
+
+
+
+    <!-- Features start -->
+
+        <?php 
+                 $all_acceuil=DB::table('accueil')
+                              ->where('statut',1)
+                              ->limit(1)
+                              ->get();
+
+       ?>
+
+    <section id="features">
+        <div class="container">
+
+            @foreach($all_acceuil as $var)
+            <div class="row">
+                <div class="col-sm-3 wow fadeInLeft">
+                    <div class="feature-image">
+                        <img class="img-responsive" src="{{URL::to($var->image)}}" alt="feature img" title="" />
+                    </div>
+                </div>
+
+                <div class="col-sm-3 wow fadeInRight">
+                    <div class="feature-wrapper">
+                        <div class="feature-content-wrapper">
+                            <h2>{{$var->titre}}</h2>
+                           <p>{{$var->contenu}}</p>
+
+                            <div class="feature-box clearfix">
+                                <div class="feature-icon pull-left">
+                                   
+                                </div>@endforeach
+                            <!--    <div class="feature-box-content">
+                                    <h3>100% Responsive Design</h3>
+                                    <p>On the other hand, we denounce with righteo us indignation and dislike men who are so asure of the moment.</p>
+                                </div>
+                            </div>
+                            <div class="feature-box clearfix">
+                                <div class="feature-icon pull-left">
+                                    <i class="fa fa-umbrella"></i>
+                                </div>
+                                <div class="feature-box-content">
+                                    <h3>Clean Coding</h3>
+                                    <p>On the other hand, we denounce with righteo us indignation and dislike men who are so asure of the moment.</p>
+                                </div>
+                            </div>
+                            <div class="feature-box clearfix">
+                                <div class="feature-icon pull-left">
+                                    <i class="fa fa-flask"></i>
+                                </div>
+                                <div class="feature-box-content">
+                                    <h3>Easy Customization</h3>
+                                    <p>On the other hand, we denounce with righteo us indignation and dislike men who are so asure of the moment.</p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div><!-- Features right side end -->
+            </div><!-- Row end -->
+        </div><!-- Container end -->
+    </section> <!-- Features end -->
+
+    <!-- Blog & Service -->
+     <?php 
+                 $blog=DB::table('activites')
+                              ->where('status',1)
+                              ->limit(1)
+                              ->get();
+
+       ?>
+
+    <section id="blog-service">
+        <div class="container">
+            @foreach($blog as $val)
+            <div class="row">
+                <div class="col-md-12">
+                    <div class='text-center'>
+                        <h2 class="title wow bounceIn"><span>Les Activités du club</span></h2>
+                    </div>
+                </div>
+
+                <!--Blog start-->
+
+                <div class="col-md-6 wow slideInLeft">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6">
+                            <div class="media recent-post">
+                                <img src="{{URL::to($val->image)}}" alt="blog" />
+                                    <div class="blog-date">
+                                        <span class="date">15
+                                            <span>feb</span>
+                                        </span>
+                                    </div>
+                                <div class="media-body post-body">
+                               <h3><a href="#">{{$val->titre}}</a></h3>
+                                    <p class="post-meta">
+                                        <span class="post-meta-author"><a href="#">Posted by: Tatania Lu</a></span>
+                                        <span class="post-meta-comments"><a href="#">16 comments</a></span>
+                                    </p>
+                                    <div class="post-excerpt">
+                                    
+                                    <a href="#" class="read-more">Read More <i class="fa fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div><!-- end media -->
+                        </div><!--/ end col-sm-6 -->
+                    
+                    </div><!-- Row end -->
+                </div><!--Blog end-->
+
+                <!-- Services start -->
+                <div class="col-md-6 wow slideInRight">
+                    <!-- Toggle start -->
+                    <div class="panel-group" id="accordion">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4 class="panel-title"> 
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">{{$val->titre}} </a> 
+                        </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                          <div class="panel-body"><p>{{$val->contenu}}</p>
+                          </div>
+                        </div>
+                         @endforeach
+                      </div><!--/ Panel 1 end-->
+                     
+                    </div><!-- Toggle end -->
+                </div><!-- Services end -->
+            </div><!--/ row end-->
+        </div><!--/ Container end-->
+    </section><!-- Blog & Service End -->
+
+    <!-- Testimonial start-->
+   
+
+    <!-- Clients start -->
+   <!-- <section id="clients">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class='text-center'>
+                    <h2 class="title"><span>Clients</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row wow fadeInLeft">
+          <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+            <figure class="item client_logo">
+              <a href="#">
+                <img src="info/images/clients/client1.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="#">
+                <img src="info/images/clients/client2.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="#">
+                <img src="info/images/clients/client3.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="#">
+                <img src="info/images/clients/client4.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="#">
+                <img src="info/images/clients/client5.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="#">
+                <img src="info/images/clients/client6.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="#">
+                <img src="info/images/clients/client7.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="#">
+                <img src="info/images/clients/client8.png" alt="client">
+              </a>
+            </figure>
+          </div><!-- Owl carousel end -->
+        </div><!-- Main row end -->
+      </div><!-- Main container end -->
+    </section>    <!-- Clients end -->
+    
+    <!-- Main Footer start -->
+    <section id="footer-wrapper">
+        <!-- Footer top start -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-about-us">
+                           <strong><p>CLUB INFORMATIQUE</p></strong> 
+                        
+                            
+                        </div>
+                    </div><!--/ end about us -->
+                    
+                    <div class="col-md-3">
+                        <div class="recent-post">
+                            <h3 class="footer-title"><span>Recent <strong>Posts</strong></span></h3>
+                            <ul>
+                               
+                            </ul>
+                        </div>
+                    </div><!--/ end recent post -->
+
+                    <div class="col-md-3">
+                        <div class="img-gallery">
+                            <h3 class="footer-title"><span>Photo <strong>Gallery</strong></span></h3>
+                            <div class="img-container">
+                                <a class="thumb-holder" data-rel="prettyPhoto" href="info/images/gallery/1.jpg">
+                                    <img src="info/images/gallery/1.jpg" alt="gallery">
+                               
+                            </div>
+                        </div>
+                    </div><!--/ end flickr -->
+
+                    <div class="col-md-3">
+                        <div class="twitter">
+                            <h3 class="footer-title"><span>Twitter <strong>Feed</strong></span></h3>
+                            <div class="tweet">
+                              
+                              <p class="tweet-time"><i class="fa fa-twitter"></i> 2 Days ago</p>
+                            </div>
+                        </div>
+                    </div><!--/ end tweet -->
+
+
+
+
+                </div><!-- Row end -->
+            </div><!-- Container end -->
+            
+
+
+ <div class="social-icon">
+    <li><i class="fa fa-phone"></i>
+ </div>           
+            
+            
+            
+        </footer><!-- Footer top end -->
+
+        <!-- Footer bottom start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 wow fadeInLeft">
+                        <ul class="footer-bottom-menu">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <a id="back-to-top" href="#" class="scroll-up back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+                            <img class="flipInY" src="info/images/to-top.png" alt="to top">
+
+                        </a>
+                    </div>
+                    <div class="col-md-5 wow fadeInRight">
+                        <div class="copyright-info">
+                         &copy; Copyright 2019 CIG. <span>Club Informatique <a href="#" target="_blank">Icagi</a></span>
+                        </div>
+                    </div>
+                </div><!-- Row end -->
+            </div><!-- Container end -->
+        </div><!-- Footer bottom end -->
+    </section>
+    <!-- Footer section end -->
+
+    <!-- Javascript Files
+    ================================================== -->
+    <!-- initialize jQuery Library -->
+    <script type="text/javascript" src="info/js/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script type="text/javascript" src="info/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script type="text/javascript" src="info/js/owl.carousel.js"></script>
+    <!-- PrettyPhoto -->
+    <script type="text/javascript" src="info/js/jquery.prettyPhoto.js"></script>
+    <!-- Bxslider -->
+    <script type="text/javascript" src="info/js/jquery.bxslider.min.js"></script>
+    <!-- Isotope -->
+    <script type="text/javascript" src="info/js/jquery.isotope.min.js"></script>
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="info/js/wow.min.js"></script>
+    <!-- SmoothScroll -->
+    <script type="text/javascript" src="info/js/smoothscroll.js"></script>
+    <!-- Animated Pie -->
+    <script type="text/javascript" src="info/js/jquery.easy-pie-chart.js"></script>
+
+
+    <!-- Template custom -->
+    <script type="text/javascript" src="info/js/custom.js"></script>
+    </div>
+</body>
+
+<!-- Mirrored from themewinter.com/html/dart/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 11 Jun 2014 12:27:06 GMT -->
+</html>
